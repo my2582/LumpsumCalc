@@ -18,9 +18,9 @@ The Lump-Sum Investment Calculator is designed to help determine the necessary u
 
 The formula to calculate the required lump-sum investment (L) to achieve a specified terminal value (TV), with annual contributions (C) increasing at rate (π), over (T) years at an annual return rate (r) is:
 
-```
-L = (TV - C * [(1 + r)^(T+1) - (1 + π)^T * (1 + r)] / (r - π)) / (1 + r)^T
-```
+$$
+L = \frac{TV - C \times \left[\frac{(1 + r)^{T+1} - (1 + \pi)^T \times (1 + r)}{r - \pi}\right]}{(1 + r)^T}
+$$
 
 ## 4. Example
 
@@ -35,8 +35,8 @@ Given:
 
 The formula becomes:
 
-```
-L = ($200,000 - $24,000 * [(1 + 0.07)^(6) - (1 + 0.02)^5 * (1 + 0.07)] / (0.07 - 0.02)) / (1 + 0.07)^5
-```
+$$
+L = \frac{\$200,000 - \$24,000 \times \left[\frac{(1 + 0.07)^{6} - (1 + 0.02)^5 \times (1 + 0.07)}{0.07 - 0.02}\right]}{(1 + 0.07)^5}
+$$
 
 This example calculates the lump-sum investment required at the outset to meet the investor's goal of $200,000 in 5 years, considering the annual contributions of $24,000 that increase by 2% annually and an expected return rate of 7%.
