@@ -27,9 +27,6 @@ $$
 L = \frac{FV - C \times \left[ \frac{(1 + r)^{T+1} - (1 + \pi)^T \times (1 + r)}{r - \pi} \right]}{(1 + r)^T}
 $$
 
-This LaTeX representation accurately reflects the mathematical equations for calculating the required lump-sum investment based on the specified conditions.
-
-
 ## 4. Example
 
 An investor aims to accumulate $200,000 ($TV$) in 5 years ($T$). The expected annual rate return ($r$) on the investment is 7%, and the annual contributions are planned to increase by 2% each year. The investor intends to contribute $24,000 annually.
