@@ -2,7 +2,7 @@
 
 ## 1. Problem Statement
 
-The Lump-Sum Investment Calculator is designed to help determine the necessary upfront investment to reach a predetermined goal (terminal value) within a time horizon, accounting for annual contributions that may grow over time at \( \pi \). Recurring contributions may be at shorter frequency, but here annual contributions are used for simplicity.
+The Lump-sum Calculator (LumpsumCalc) is designed to help determine the necessary upfront investment to reach a predetermined goal (terminal value) within a time horizon, accounting for annual contributions that may grow over time at $\pi$, which may be 0 or any positive value. Recurring contributions may be at shorter frequency, but here annual contributions are used for simplicity.
 
 ## 2. Definitions
 
@@ -15,7 +15,7 @@ The Lump-Sum Investment Calculator is designed to help determine the necessary u
 
 ## 3. Formula
 
-To calculate the required lump-sum investment $L$ needed to reach a specific future value \( FV \), given annual contributions \( C \) that increase at rate \( \pi \), over a period of \( T \) years, with an annual return rate \( r \), the formula is rearranged from the future value of annuity and lump sum investment formulas:
+To calculate the required lump-sum investment ($L$) needed to reach a specific future value ($FV$), given annual contributions ($C$) that increase at rate $\pi$, over a period of $T$ years, with an annual return rate $r$, the formula is rearranged from the future value of annuity and lump sum investment formulas:
 
 $$
 FV = L(1 + r)^T + C \times \left[ \frac{(1 + r)^{T+1} - (1 + \pi)^T \times (1 + r)}{r - \pi} \right]
@@ -32,14 +32,14 @@ This LaTeX representation accurately reflects the mathematical equations for cal
 
 ## 4. Example
 
-An investor aims to accumulate $200,000 ($TV$) in 5 years ($T$). The expected annual rate return ($ARR$) on the investment is 7%, and the annual contributions are planned to increase by 2% each year. The investor intends to contribute $24,000 annually.
+An investor aims to accumulate $200,000 ($TV$) in 5 years ($T$). The expected annual rate return ($r$) on the investment is 7%, and the annual contributions are planned to increase by 2% each year. The investor intends to contribute $24,000 annually.
 
 Given:
-- $TV = \$200,000$
-- $T = 5$
-- $r = 0.07$
-- $\pi = 0.02$
-- $C = \$24,000$
+- $TV$ = $200,000
+- $T$ = 5
+- $r$ = 0.07
+- $\pi$ = 0.02
+- $C$ = $24,000
 
 The formula becomes:
 
