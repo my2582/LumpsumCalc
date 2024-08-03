@@ -31,7 +31,7 @@ r_m = (1 + r)^{1/12} - 1
 $$
 
 2. **Number of Months**:
-3. 
+
 $$
 N = T
 $$
@@ -45,6 +45,7 @@ $$
 ### Investment Formula
 
 To calculate the required lump-sum investment ($L$) needed to reach a specific future value ($FV$), given variable monthly contributions ($C_m[i]$) over a period of $N$ months (where contributions are made from the start of month 1 to the start of month $T$), with a Monthly Required Return $r_m$, the formula is:
+
 $$
 FV = L(1 + r_m)^N + \sum_{i=1}^{N} C_m[i] \times (1 + r_m)^{N-i}
 $$
@@ -52,6 +53,7 @@ $$
 ### Rearranged Formula for $r_m$
 
 To solve for the Monthly Required Return $r_m$:
+
 $$
 r_m = \left( \frac{FV - \sum_{i=1}^{N} C_m[i] \times (1 + r_m)^{N-i}}{L} \right)^{\frac{1}{N}} - 1
 $$
