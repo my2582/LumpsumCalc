@@ -58,6 +58,9 @@ $$
 r_m = \left( \frac{FV - \sum_{i=1}^{N} C_m[i] \times (1 + r_m)^{N-i}}{L} \right)^{\frac{1}{N}} - 1
 $$
 
+### Considerations
+- Iterative Solution: The formula involves $r_m$ on both sides due to the contributions term, making it a non-linear equation. Solving this explicitly requires iterative numerical methods, such as Newton-Raphson or binary search algorithms, to approximate $r_m$. 
+
 ## Example Calculation
 
 An investor aims to accumulate $30,000 ($TV$) in 3 years ($T = N = 36$ months). The investor plans to make variable monthly contributions of $250 each month for the first 24 months and that of $1,000 each month for the rest 12 months.
